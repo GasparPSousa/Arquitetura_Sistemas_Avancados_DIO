@@ -26,10 +26,10 @@ Web App >>>>>>>>>> Proxy HTTP >>>>>>>>>>> Serviço de Carteira >>>>>>>>>>> Messa
 
 
 Message Broker >>>>>>>>>>>>>>>>> Serviço de Cobrança >>>>>>>>>>>>>>> Banco de Dados
-                Aquisição                   |
-                de                              |
-                Plano                                |
-                                                         |
+                Aquisição                   \
+                de                              \
+                Plano                                \
+                                                         \
                                                         Dead Letter Queue
 
 
@@ -55,9 +55,9 @@ Web App >>>>>>>>>> Proxy HTTP >>>>>>>>>>>> Serviço 1 >>>>>>>>>>>>> Message Brok
                                           Logs Logs Logs
                     TrackID
 Message Broker >>>>>>>>>>>>>>  Serviço 2
-     |          <<<<<<<<<<<<<<  Logs Logs Logs
-        |           TrackID
-            |
+     \          <<<<<<<<<<<<<<  Logs Logs Logs
+        \           TrackID
+            \
            Serviço 3
         Logs Logs Logs
 

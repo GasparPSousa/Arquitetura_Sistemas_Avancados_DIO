@@ -73,13 +73,13 @@ Esse exemplo parece muito mais uma comunicação liner.
 
 
 Passo 1                                  Serviço 1
-
-                                    Msg                 Msg
-
+                                       /            \
+                                    Msg                Msg
+                                /                           \
 Passo 2                 Serviço 2                           Serviço 3
-
+                        /         \                       /           \
                     Msg            Msg                  Msg             Msg
-
+                    /                 \                 /                   \
 Passo 3     Serviço 4               Serviço 5     Serviço 6                 Serviço 7
 
 
